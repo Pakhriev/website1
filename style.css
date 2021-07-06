@@ -1,0 +1,47 @@
+body,h1,h2,h3{
+margin: 0%;
+padding: 0px;
+}
+#header{
+    background-color: coral;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+#header h1{
+    color: white;
+    font-family: cursive;
+    padding: 10px 0;
+}
+#navbar{
+    background-color: #555
+}
+#navbar  ul li {
+    list-style: none;
+    display: inline;
+   
+}
+#navbar  ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding:15px 10px;
+    display: inline-block;
+    font-family: cursive;
+
+}
+#navbar  ul li:first-child a{
+    padding-left: 0;
+   
+}
+#showcase{
+    background-image: url(showcase.jpg);
+    background-position: center right;
+    
+    
+}
+#showcase h1{
+color: white;
+margin-top: 0px;
+}
+
